@@ -10,8 +10,10 @@
   <h1>Dev Skills</h1>
   <ul>
     <a href="/skills/new">Add Skill</a>
+
     <% skills.forEach(skill => { %>
       <li>
+        <!-- <a href="/skills/<%= skill._id %>"></a> -->
 				<%= skill.Name %> 
 				- 
 				<%= skill.easy ? 'Very Easy' : 'Not Easy' %>

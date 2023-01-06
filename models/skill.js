@@ -3,10 +3,9 @@ import mongoose from 'mongoose'
 const Schema = mongoose.Schema
 
 const skillSchema = new Schema({
-  name: String,
-  level: String, 
+  Name: String,
+  Level: String, 
   Speed: String,
-  Easy: Boolean, 
 }
 )
 //Ask what "skill" is doing
