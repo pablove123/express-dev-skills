@@ -1,4 +1,4 @@
-
+//ask how much we need to know vs how much is just copy and paste
 import mongoose from 'mongoose'
 
 // shortcut to mongoose.connection object
