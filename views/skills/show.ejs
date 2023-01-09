@@ -8,9 +8,12 @@
 </head>
 <body>
   <h1>Dev Skills</h1>
-  <!-- <h2>Skill #<%= skill._id %></h2> -->
+  <h2>Skill #<%= skill._id %></h2>
+  <h3><a href="/skills/<%= skill._id %>/edit">Edit Skill</a></h3>
   <h3><%= skill.Name %></h3>
-  <p>Complete: <%= skill.Easy ? 'Easy' : 'Not Easy' %></p>
+  <p>Easy? <%= skill.Easy ? 'Easy' : 'Not Easy' %></p>
+  <p>Speed: <%= skill.Speed %> </p>
+  <p>Difficuty: <%= skill.Level %> </p>
 	<a href="/skills">Go back</a>
 </body>
 </html>

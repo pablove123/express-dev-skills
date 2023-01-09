@@ -6,6 +6,7 @@ const skillSchema = new Schema({
   Name: String,
   Level: String, 
   Speed: String,
+  Easy: Boolean
 }
 )
 //Ask what "skill" is doing
